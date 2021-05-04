@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+
+import './index.css';
 import './App.css';
 
+import NavBar from './components/nav_bar';
+import {Footer} from "./components/footer";
+import { ServicesPage } from './pages/services_page/services_page';
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import {HomePage} from "./pages/home_page/home_page";
+import {useEffect, useState} from "react";
+
+
 function App() {
-  return (
+
+         const [color,setColor]=useState("#036cac");
+         console.log(color);
+         function changeColor() {
+               setColor("#009580");
+         }
+         function setBlueColor() {
+            setColor('#036cac')
+         }
+    return (
+      <Router>
+   <Switch>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar color={color} changeColor={changeColor} blurColor={setBlueColor}/>
+      <Route path={'/'} exact>
+       <HomePage/>
+      </Route>
+        <Route path={'/services'}>
+       <ServicesPage/>
+        </Route>
+      <Footer/>
     </div>
+   </Switch>
+      </Router>
   );
 }
 

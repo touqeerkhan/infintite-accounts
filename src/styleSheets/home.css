@@ -1,0 +1,245 @@
+@media (max-width: 767.98px) {
+    .slider-area{
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+    .blur-image-area-home{
+        width: 100%;
+        height: 30vh;
+        background-color: rgba(3,108,172,0.6)
+    }
+    .carousel-slider{
+       height: 30vh;
+
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-item h1{
+        font-size: smaller;
+    }
+    .carousel-item p{
+        font-size: xx-small;
+    }
+
+}
+@media (max-width: 575.98px) {
+    .slider-area{
+        height: 30vh;
+    }
+    .carousel-item h1{
+        font-size: smaller;
+    }
+    .carousel-item p{
+        font-size: xx-small;
+    }
+}
+.blur-image-area-home{
+    width: 100%;
+    background-color: rgba(3,108,172,0.6)
+}
+
+.content-area h1{
+ text-align: center;
+}
+.content-area p{
+    text-align: center;
+}
+.quotes-area{
+    background-color: #036cac;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+
+}
+.quotes-area h3{
+    color: white;
+    padding: 20px;
+}
+.home-col-area img{
+      width: 60px;
+    height: 60px;
+}
+.partner-area{
+    background-color: white;
+}
+.partner-area h1{
+    padding: 20px;
+}
+.partner-images{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+.partner-images img{
+    height: 40px;
+    margin: 10px;
+}
+.slider-area{
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.carousel-slider{
+  width: 100%;
+    text-align: center;
+}
+.carousel-item {
+    color: white;
+    text-align: center;
+}
+.help_area{
+    background-color: #036cac;
+}
+
+.help-col h1{
+    color: white;
+}
+.help-col ul li{
+    color: white;
+    text-align: start;
+    margin: 2px;
+
+}
+.home-divider-area{
+    background-color: white;
+    height: 30px;
+}
+
+.home-services-area{
+    padding: 20px;
+    background-color: white;
+}
+.home-services-area h1{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.testimonial{
+    text-align: center;
+}
+.testimonial-area h1{
+    text-align: start;
+    padding: 10px;
+}
+.testimonial .testimonial-content{
+    padding: 30px 50px;
+    background: #036cac;
+   border-radius: 20px;
+    position: relative;
+    margin: 0 10px 35px;
+}
+ .heading{
+    color: white;
+    text-align: center;
+     font-weight: bold;
+     padding: 5px;
+}
+.testimonial-content p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.testimonial .testimonial-content:after{
+    content: "";
+    position: absolute;
+    border-top: 10px solid #036cac;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: -9px;
+    left: 47%;
+}
+.testimonial .description{
+    font-size: 14px;
+    color: #fdfffc;
+    line-height: 25px;
+    margin: 0;
+}
+.testimonial .pic{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .testimonial-profile{
+    float:left;
+    width:27%;
+    padding-right:15px;
+}
+.testimonial .testimonial-profile img{
+    width: 100%;
+    height: auto;
+    border-radius:50%;
+    display: inline-block;
+    margin-bottom:10px;
+}
+.profile-name{
+    font-weight: lighter;
+    font-size: x-small;
+}
+.profile-info{
+    font-weight: lighter;
+    font-size: xx-small;
+}
+.testimonial .testimonial-title{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #011627;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #ff9f1c;
+}
+.owl-theme .owl-controls{
+    border-top: 1px solid #d5d5d5;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #ff9f1c;
+
+    opacity: 1;
+    padding: 0;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    color: #fdfffc;
+}
+.owl-next:before{
+    content: "\f054";
+}
+.owl-prev:hover:before,
+.owl-next:hover:before{
+    color: #011627;
+}
+.subscribe-area{
+    background-color: #036cac;
+}
+.sub-col h1{
+    color: white;
+    text-align: start;
+}
+
+
+

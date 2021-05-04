@@ -1,13 +1,219 @@
+
+*{font-family: 'Montserrat', sans-serif;}
+*p{color: black}
+*ul{ list-style-type: none}
+.btn-services {
+    background-color: #ffd300;
+    border-radius: 20px;
+    font-size: smaller;
+}
+.btn-outlines{
+   border-radius: 20px;
+    background-color: transparent;
+    font-size: smaller;
+    border: 1px solid white;
+}
+
+@media (max-width: 575.98px) {
+    .top{
+        display: none;
+    }
+    .header-image{
+        height: 30vh;
+       
+    }
+    .center-title{
+        height: 30vh;
+    }
+    .center-title h1{
+        font-size: 15px;
+    }
+    .header-area-subtitle{
+        font-size: 15px;
+    }
+    .header-area-title{
+        font-size: 15px;
+    }
+    .header-image{
+        height: 30vh;
+        background-size: 50% 50%;
+    }
+    .center-title{
+        height: 30vh;
+    }
+    .header-area-paragraph{
+        font-size: 10px;
+    }
+}
+@media (max-width: 767.98px) {
+    .blur-image-area{
+        height: 30vh;
+        width: 100%;
+        background-color: rgba(0,149,128,0.6)
+    }
+    .center-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.accountant-navbar{
+ font-size: x-small;
+ font-weight: bold;
+
+}
+nav .navbar-nav li a{
+  color: black !important;
+  margin: 5px;
+}
+.nav-link{
+    color: black !important;
+    margin: 5px;
+    text-decoration: none;
+}
+.blur-image-area{
+    width: 100%;
+    background-color: rgba(0,149,128,0.6)
+}
+.center-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.header-area{
+    background-color: #f2faf9;
+}
+
+.header-area-subtitle{
+  color: black;
+}
+.header-area-paragraph{
+  text-align: justify;
+
+}
+.business-types-area{
+   background-color: white;
+    width: 100%;
+ }
+.business-types-area h1 .business-types-area p{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+
+
+}
+.business-desc{
+   text-align: justify;
+}
+.business-types-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.switch-area{
+    background-color: #009580;
+}
+.switch-button{
+    background-color: #ffd300;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+}
+.footer-area{
+    background-color: black;
+}
+.footer-link{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: x-small;
+}
+.footer-link:hover{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-row h5{
+    font-size: smaller;
+}
+.footer-line{
+    width: 100%;
+    height: 0.1px;
+    background-color: white;
+}
+
+.top-middle li {
+    display: inline-block;
+}
+.top .top-middle, .top .top-right {
+    padding: 0px;
+}
+.top .top-left {
+    padding: 4px 0 0;
+    text-align: left;
+}
+.top-left li {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.top-left li a{
+    color: #fff;
+}
+.top {
+   padding: 10px;
+    text-align: center;
+}
+.top-middle {
+    text-align: right;
+}
+.top-left p{
+    color:#fff;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+
+.top-middle li {
+    margin-right: 15px;
+}
+.top-icon{
+   color: white;
+    font-size: 20px;
+    margin: 10px;
+
+}
+.top-middle  i.fab {
+    color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.t-op.row {
+    margin: 0;
 }
