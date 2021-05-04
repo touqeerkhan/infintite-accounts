@@ -7,6 +7,7 @@ import {Footer} from "./components/footer";
 import { ServicesPage } from './pages/services_page/services_page';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import {HomePage} from "./pages/home_page/home_page";
+import {ServePage} from "./pages/serve_page/serve_page";
 function App() {
     return (
       <Router>
@@ -18,6 +19,9 @@ function App() {
       </Route>
         <Route path={'/services'}>
        <ServicesPage/>
+        </Route>
+        <Route path={'/who-we-serve'}>
+        <ServePage/>
         </Route>
       <Footer/>
     </div>

@@ -58,7 +58,7 @@ function NavBar(props) {
           <Link to={'/services'} className={'nav-link'} onClick={()=>setBgColor("#009580")}>SERVICES</Link>
       </li>
       <li className="nav-item">
-          <Link to={'/serve'} className={'nav-link'}>WHO WE SERVE</Link>
+          <Link to={'/who-we-serve'} className={'nav-link'} onClick={()=>setBgColor("#009580")}>WHO WE SERVE</Link>
       </li>
       <li className="nav-item">
           <Link to={'/offices'} className={'nav-link'}>OFFICES</Link>
