@@ -7,24 +7,12 @@ import {Footer} from "./components/footer";
 import { ServicesPage } from './pages/services_page/services_page';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import {HomePage} from "./pages/home_page/home_page";
-import {useEffect, useState} from "react";
-
-
 function App() {
-
-         const [color,setColor]=useState("#036cac");
-         console.log(color);
-         function changeColor() {
-               setColor("#009580");
-         }
-         function setBlueColor() {
-            setColor('#036cac')
-         }
     return (
       <Router>
    <Switch>
     <div className="App">
-      <NavBar color={color} changeColor={changeColor} blurColor={setBlueColor}/>
+      <NavBar/>
       <Route path={'/'} exact>
        <HomePage/>
       </Route>

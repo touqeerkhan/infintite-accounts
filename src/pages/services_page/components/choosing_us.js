@@ -3,7 +3,7 @@ import React from 'react';
 export function ChoosingUs() {
   return(
       <div className={'choosingUs-area'}>
-         <div className={'row p-5 choosing-row-data'}>
+         <div className={'row p-5 choosing-row-data m-0'}>
           <div className={'col-lg-6 col-12'}>
               <img src={'./images/choosing_logo.svg'} className={'img-fluid'}/>
           </div>

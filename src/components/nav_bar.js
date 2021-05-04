@@ -1,12 +1,17 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {Link} from 'react-router-dom';
 import {FaInstagram, FaPhone, FaPinterest, FaTwitter, FaYoutube} from "react-icons/all";
 import {GrMail} from "react-icons/gr";
 function NavBar(props) {
 
+       const [color,setColor]=useState("#036cac");
+       function setBgColor(colorValue) {
+          setColor(colorValue);
+       }
+
     return (
         <div className={'nav-top'}>
-            <div className="top" style={{backgroundColor:props.color}}>
+            <div className="top" style={{backgroundColor:color}}>
                 <div className="container">
                     <div className="t-op row align-items-center">
                         <div className="col-sm-6 top-left">
@@ -44,13 +49,13 @@ function NavBar(props) {
   <div className="collapse navbar-collapse accountant-navbar text-uppercase" id="navbarNav" >
     <ul className="navbar-nav ms-auto">
       <li className="nav-item">
-          <Link to={'/'} className={'nav-link'} onClick={props.blurColor}>Home</Link>
+          <Link to={'/'} className={'nav-link'} onClick={()=>setBgColor("#036cac")}>Home</Link>
       </li>
       <li className="nav-item">
           <Link to={'/about-us'} className={'nav-link'} >ABOUT US</Link>
       </li>
       <li className="nav-item">
-          <Link to={'/services'} className={'nav-link'} onClick={props.changeColor}>SERVICES</Link>
+          <Link to={'/services'} className={'nav-link'} onClick={()=>setBgColor("#009580")}>SERVICES</Link>
       </li>
       <li className="nav-item">
           <Link to={'/serve'} className={'nav-link'}>WHO WE SERVE</Link>

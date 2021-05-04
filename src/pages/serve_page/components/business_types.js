@@ -1,5 +1,5 @@
 import React from 'react'
-import {businessTypesData,servicesData} from "../data/business_types_data";
+import {businessTypesData,servicesData} from "../../../data/business_types_data";
 
 function BusinessTypes() {
   const businessData=businessTypesData;
