@@ -73,7 +73,9 @@ export function Content() {
                </div>
            </div>
            <div className="container-fluid">
-               <div className="row p-5 testimonial-area">
+               <div className="row p-5 testimonial-area" style={{ backgroundImage: 'url("./images/comma_logo.svg")',
+                   backgroundPosition:"top right",
+                   backgroundRepeat: "no-repeat", backgroundSize:"20% 20%",}}>
                    <h1>Testimonials</h1>
                    <div className="col-lg-6 col-12">
                        <div id="testimonial-slider" className="owl-carousel">
@@ -96,7 +98,7 @@ export function Content() {
                    </div>
                    <div className="col-lg-6 col-12">
                        <div id="testimonial-slider" className="owl-carousel">
-                           <div className="testimonial">
+                           <div className="testimonial" >
                                <div className="testimonial-content">
                                    <p className={'heading'}>Dependable, Responsive, Professional Partner</p>
                                    <p className="description">

@@ -1,0 +1,91 @@
+.offices-content{
+    background-color: white;
+}
+.office-image-area{
+    position: relative;
+}
+.image-content-area{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.list-data{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    align-self: center;
+    padding: 5px;
+}
+.list-data p{
+    margin-left: 5px;
+}
+.list-data img{
+    width: 30px;
+    height: 30px;
+}
+.similar-content span{
+      color: #009580;
+      text-decoration: underline;
+}
+.similar-content p{
+    text-align: justify;
+}
+.schedule-calling-area{
+    background-color: #009580;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.schedule-area-content h3{
+    color: white;
+    padding: 10px;
+}
+.contact-treetops-area{
+    background-color: #f2faf9;
+}
+.treetoops-flex-items{
+    color: #009580;
+}
+.reviews-area-right{
+
+}
+.data-div{
+    background-color: #009580;
+    margin-top: 10px;
+    padding: 10px;
+}
+.data-div p{
+    color: white;
+    text-align: justify;
+    padding: 4px;
+    font-size: smaller;
+}
+.data-div button{
+      width: 50%;
+   margin: 5px;
+}
+.accountant-data-div{
+
+    background-color: #f2faf9;
+    margin-top: 15px;
+}
+.accountant-data-div button{
+    padding: 8px;
+    width: 70%;
+
+}
+.accountant-data-div p{
+    text-align: start;
+}
+.star-rating-area{
+    background-color: #f2faf9;
+    margin-top: 10px;
+}
+.g-review{
+    color: #009580;
+}

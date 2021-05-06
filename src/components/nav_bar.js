@@ -9,6 +9,7 @@ function NavBar(props) {
           setColor(colorValue);
        }
 
+
     return (
         <div className={'nav-top'}>
             <div className="top" style={{backgroundColor:color}}>
@@ -52,7 +53,7 @@ function NavBar(props) {
           <Link to={'/'} className={'nav-link'} onClick={()=>setBgColor("#036cac")}>Home</Link>
       </li>
       <li className="nav-item">
-          <Link to={'/about-us'} className={'nav-link'} >ABOUT US</Link>
+          <Link to={'/aboutUs'} className={'nav-link'} onClick={()=>setBgColor("#009580")} >ABOUT US</Link>
       </li>
       <li className="nav-item">
           <Link to={'/services'} className={'nav-link'} onClick={()=>setBgColor("#009580")}>SERVICES</Link>
@@ -61,7 +62,7 @@ function NavBar(props) {
           <Link to={'/who-we-serve'} className={'nav-link'} onClick={()=>setBgColor("#009580")}>WHO WE SERVE</Link>
       </li>
       <li className="nav-item">
-          <Link to={'/offices'} className={'nav-link'}>OFFICES</Link>
+          <Link to={'/offices'} className={'nav-link'} onClick={()=>setBgColor("#009580")}>OFFICES</Link>
       </li>
       <li className="nav-item">
           <Link to={'/resources'} className={'nav-link'}>RESOURCES</Link>
