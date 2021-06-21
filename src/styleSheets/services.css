@@ -31,6 +31,11 @@
     margin-top: 10px;
     padding: 10px;
 }
+.cloud-area-content{
+    background-color: #efefef;
+    margin-top: 10px;
+    padding: 10px;
+}
 .services-area-content h1{
      text-align: center;
 
@@ -71,6 +76,9 @@
 }
 .choosingUs-area{
     background-color: #009580;
+}
+.cloud-mobile-area{
+    background-color: #ce3d65;
 }
 .choosing-row-data h1{
     color: white;

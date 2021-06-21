@@ -8,7 +8,7 @@ export function HomeSlider() {
                 backgroundPosition:"center",
                 backgroundRepeat: "no-repeat", backgroundSize:"100% 100%",
             }}>
-                <div className={'mask blur-image-area-home'}>
+                <div className={'mask blur-image-area'}>
                     <div className={'slider-area'}>
                         <Carousel className={'carousel-slider'} nextLabel={''} prevLabel={''}>
                             <Carousel.Item className={'carousel-item'}>
