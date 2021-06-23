@@ -110,122 +110,93 @@ function NavBar(props) {
                   Cloud Computing
                 </Link>
               </li>
-               <li class="dropdown">
-      	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      		Gadgets <b class="caret"></b>
-      	</a>
-        <ul class="dropdown-menu mega-menu">
-          <li>
-            <div class="row-fluid">
-              <ul class="media-list span4">
-                <li class="media">
-                	<a href="#" class="pull-left">
-                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object" />
-                	</a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
-                    <ul class="unstyled">
-                      <li><a href="#">Subcategory One</a></li>
-                      <li><a href="#">Subcategory Two</a></li>
-                      <li><a href="#">Subcategory Three</a></li>
-                      <li><a href="#">Subcategory Four</a></li>
-                      <li><a href="#">Subcategory Five</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-              <ul class="media-list span4">
-                <li class="media">
-                	<a href="#" class="pull-left">
-                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object" />
-                	</a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
-                    <ul class="unstyled">
-                      <li><a href="#">Subcategory One</a></li>
-                      <li><a href="#">Subcategory Two</a></li>
-                      <li><a href="#">Subcategory Three</a></li>
-                      <li><a href="#">Subcategory Four</a></li>
-                      <li><a href="#">Subcategory Five</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-              <ul class="media-list span4">
-                <li class="media">
-                	<a href="#" class="pull-left">
-                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object" />
-                	</a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
-                    <ul class="unstyled">
-                      <li><a href="#">Subcategory One</a></li>
-                      <li><a href="#">Subcategory Two</a></li>
-                      <li><a href="#">Subcategory Three</a></li>
-                      <li><a href="#">Subcategory Four</a></li>
-                      <li><a href="#">Subcategory Five</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <hr />
-            <div class="row-fluid">
-              <ul class="media-list span4">
-                <li class="media">
-                	<a href="#" class="pull-left">
-                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object" />
-                	</a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
-                    <ul class="unstyled">
-                      <li><a href="#">Subcategory One</a></li>
-                      <li><a href="#">Subcategory Two</a></li>
-                      <li><a href="#">Subcategory Three</a></li>
-                      <li><a href="#">Subcategory Four</a></li>
-                      <li><a href="#">Subcategory Five</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-              <ul class="media-list span4">
-                <li class="media">
-                	<a href="#" class="pull-left">
-                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object" />
-                	</a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
-                    <ul class="unstyled">
-                      <li><a href="#">Subcategory One</a></li>
-                      <li><a href="#">Subcategory Two</a></li>
-                      <li><a href="#">Subcategory Three</a></li>
-                      <li><a href="#">Subcategory Four</a></li>
-                      <li><a href="#">Subcategory Five</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-              <ul class="media-list span4">
-                <li class="media">
-                	<a href="#" class="pull-left">
-                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object" />
-                	</a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
-                    <ul class="unstyled">
-                      <li><a href="#">Subcategory One</a></li>
-                      <li><a href="#">Subcategory Two</a></li>
-                      <li><a href="#">Subcategory Three</a></li>
-                      <li><a href="#">Subcategory Four</a></li>
-                      <li><a href="#">Subcategory Five</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </li>
+
+              <li className='nav-item'>
+                <Link className={'nav-link'}>
+                  <li class='dropdown'>
+                    <a
+                      class='dropdown-toggle'
+                      data-toggle='dropdown'
+                      role='button'
+                      aria-haspopup='true'
+                      aria-expanded='false'
+                      style={{ textDecoration: 'none' }}
+                    >
+                      Services <span class='caret'></span>
+                    </a>
+                    <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
+                      <div class='container'>
+                        <div class='row'>
+                          <div class='col col-xs-6 col-md-3'>
+                            <ul class='nav flex-column'>
+                              <li class=''>
+                                <span class='nav-link text-bold'>
+                                  Accounting
+                                </span>
+                              </li>
+                              <li class='mega-list'>Self Assessment</li>
+                              <li class='mega-list'>Year End Accounts</li>
+                              <li class='mega-list'>CT Return</li>
+                              <li class='mega-list'>
+                                VAT Registration Accounts
+                              </li>
+                              <li class='mega-list'>Switch Accounts</li>
+                            </ul>
+                          </div>
+                          <div class='col col-xs-6 col-md-3'>
+                            <ul class='nav flex-column'>
+                              <li class=''>
+                                <span class='nav-link text-bold'>
+                                  TAX Return
+                                </span>
+                              </li>
+                              <li class='mega-list'>Tax Investigation cover</li>
+                              <li class='mega-list'>VAT Returns</li>
+                              <li class='mega-list'>PAT Management</li>
+                              <li class='mega-list'>
+                                VAT Registration Accounts
+                              </li>
+                              <li class='mega-list'>Switch Accounts</li>
+                            </ul>
+                          </div>
+                          <div class='col col-xs-6 col-md-3'>
+                            <ul class='nav flex-column'>
+                              <li class=''>
+                                <span class='nav-link text-bold'>
+                                  TAX
+                                </span>
+                              </li>
+                              <li class='mega-list'>Payrol/ Auto Enrollment</li>
+                              <li class='mega-list'>Capital Gain</li>
+                              <li class='mega-list'>Management Accounts</li>
+                              <li class='mega-list'>
+                                VAT Registration Accounts
+                              </li>
+                              <li class='mega-list'>Switch Accounts</li>
+                            </ul>
+                          </div>
+                          <div class='col col-xs-6 col-md-3'>
+                            <ul class='nav flex-column'>
+                              <li class=''>
+                                <span class='nav-link text-bold'>
+                                  Payrol
+                                </span>
+                              </li>
+                              <li class='mega-list'>Bookkeeping</li>
+                              <li class='mega-list'>Resources</li>
+                              <li class='mega-list'>Management Accounts</li>
+                              <li class='mega-list'>
+                                VAT Registration Accounts
+                              </li>
+                              <li class='mega-list'>Switch Accounts</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </Link>
+              </li>
               <li className='nav-item'>
                 <Link
                   to={'/who-we-serve'}
